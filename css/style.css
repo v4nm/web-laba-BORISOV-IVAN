@@ -1,0 +1,53 @@
+body {
+    background-color: #FFECCE;
+    color: #000000;
+    font-family: "Courier New", monospace;
+}
+
+.navbar {
+    background-color: #BFAB8D !important;
+    border-bottom: 1px solid #FFECCE;
+}
+
+.navbar-brand .text-dark {
+    color: #000000 !important; /* Черный цвет текста */
+    font-weight: bold; /* Жирный шрифт (опционально) */
+}
+
+.me-2 {
+    width: 5%;
+}
+
+.cat-img {
+    max-width: 45%;
+    height: auto;
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px #000000;
+}
+
+.btn-primary {
+    background-color: #A67A36;
+    border: none;
+    color: #000000;
+}
+
+.btn-primary:active, 
+.btn-primary:focus {
+    background-color: #A67A36 !important;
+    box-shadow: none !important;
+}
+
+.btn-primary:hover {
+    background-color: #978060;
+}
+
+.story-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.story-text {
+    max-width: 50%;
+    text-align: left;
+}
